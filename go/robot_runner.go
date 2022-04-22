@@ -28,9 +28,6 @@ type (
         }
 
         // Plane is a rectangluar plane, can have particles on it.
-        //
-        // TODO: particles are not implemented and problem has no
-        //      inputs for particles
         Plane struct {
                 rows int32 // number of cols
                 cols int32 // number of rows
